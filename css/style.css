@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightskyblue;
+    color: white;
+    position: absolute;
+    width: 100%;
+}
+
+.header article {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 32px;
+}
+li {
+    list-style-type: none;
+}
+
+.header .logo {
+    max-height: 100px;
+}
+.header article ul {
+    list-style-type: none;
+}
+.header article ul li {
+    display: inline-block;
+    margin-top: 20px;
+}
+article a {
+    color:black;
+    text-decoration: none;
+}
+p {
+    font-size: 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+.homepage .picture {
+    height: 800px;
+    width: 65%;
+    background-size: cover;
+    background-image: url("file:///Users/koberobinson/Pictures/Photos%20Library.photoslibrary/private/com.apple.Photos/ExternalEditSessions/5A654716-3BC3-40D5-A93C-C3DBF1DA501A/1L6A0077_Original.jpeg");
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+}
+    
+.logo img {
+   max-height: 30px;
+   border-radius: 40%;
+}
+
+.home {
+    background-color: white;
+    width: 450px;
+    border: 5px black;
+    border-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 25px;
+    position: relative; right: -700px; top: -500px;
+      
+}
+
+h2 {
+    font-size: 30px;
+}
+#Projects h2 {
+    position: relative; right: -625px;
+}
+.about {
+    background-color: white;
+    width: 600px;
+    border: 2px black;
+    border-style: none;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 250px;
+    position: relative; right: -400px;
+}
+.workbox1 {
+    background-color: white;
+    width: 900px;
+    border: 2px black;
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 250px;
+    position: relative; right: -250px;
+}   
+.workbox1 img {
+    max-height: 500px;
+}
+.workbox2 {
+    background-color: white;
+    width: 400px;
+    border: 2px black;
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 250px;
+    position: relative; right: -250px; bottom: 215px;
+}
+.workbox2 img {
+    max-height: 250px;
+}
+.workbox3 {
+    background-color: white;
+    width: 400px;
+    border: 2px black;
+    border-style: solid;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 250px;
+    position: relative; right: -750px; bottom: 805px;
+}
+.workbox3 img {
+    max-height: 250px;
+}
+#Contact h2 {
+    position: relative; right: -600px;
+}
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: black;
+  }
+  .workLinks a {
+      color: purple;
+      text-decoration: underline;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  #Contact {
+      position: relative; bottom: 600px;
+  }
+.footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
+}
+@media only screen and (max-width: 768px) {
+    .header img {
+        display: none;
+    }
+    
+}
